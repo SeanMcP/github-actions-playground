@@ -14,5 +14,6 @@ jobs:
         run: |
           zip release.zip ./README.md
       - name: Release
-        run: echo "What do I do next?"
-      
+        run: |
+          echo "What do I do next?"
+          ls .
